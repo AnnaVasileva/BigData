@@ -42,7 +42,6 @@ CREATE TABLE marks(
 
 ALTER TABLE marks
 ADD semestyr INTEGER NOT NULL;
-
 ALTER TABLE marks DROP primary key;
 ALTER TABLE marks ADD PRIMARY KEY(exam_date, id_student);
 
