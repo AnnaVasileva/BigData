@@ -1,13 +1,13 @@
 CREATE TABLE file_accounts
 (
-	  acc_id 	   INTEGER
+	  acc_id       INTEGER
 	, acc_number   VARCHAR(50)
 	, client_name  VARCHAR(50)
 	, client_addr  VARCHAR(100)
 	, client_city  VARCHAR(100)
 	, open_date    TIMESTAMP
 	, close_date   TIMESTAMP
-	, balance 	   DOUBLE
+	, balance      DOUBLE
 	, currency     VARCHAR(4)
 );
 
@@ -35,14 +35,14 @@ SELECT
 	, TRIM (currency)
 FROM EXTERNAL 'D:\Netezza - Training\Practice\Accounts.txt'
 (
-	  acc_id 	   INTEGER
+	  acc_id       INTEGER
 	, acc_number   VARCHAR(50)
 	, client_name  VARCHAR(50)
 	, client_addr  VARCHAR(100)
 	, client_city  VARCHAR(100)
 	, open_date    VARCHAR(100)
 	, close_date   VARCHAR(100)
-	, balance 	   DOUBLE
+	, balance      DOUBLE
 	, currency     VARCHAR(4)
 )
 USING
