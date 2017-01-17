@@ -1,0 +1,5 @@
+acc_id, acc_number, client_name, client_addr, client_city, open_date, close_date, balance, currency
+111, 1e1e1e, Ayo2, El-Galaa 12, Tanta, 13-02-2009 08:12:11, 21-07-2016 13:10:21, 11999.40, EGP
+222, 2q2q2q, Amara, Abd El-Salam Aref 100, Zagazig, 19-04-2007 15:15:15, 11-10-2017 10:09:08, 101949.1, EGP
+333, 3r3r3r, Monifa, Housny Mobarak 21, Banha, 14-04-2010 16:23:43, 20-10-2011 11:42:23, 9762.55, USD
+444, 4a4a4a, Sanaa, Ahmed Oraby 61, Fakus, 01-02-2003 09:13:17, 03-03-2010 14:16:33, 218779.30, EUR
